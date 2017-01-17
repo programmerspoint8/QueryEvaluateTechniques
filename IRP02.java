@@ -454,7 +454,7 @@ public class IRP02 {
 			bw.write(result + " ");
 		}
 		bw.write("\n");
-		bw.write("Number of documents in results: "+results.size()+" \n");
+		bw.write("Number of documents in results: "+ results.size()+" \n");
 		bw.write("Number of comparisons: "+ compareCount + " \n");
 	}
 	
