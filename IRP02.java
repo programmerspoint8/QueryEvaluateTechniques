@@ -451,7 +451,7 @@ public class IRP02 {
 			bw.write("empty ");
 		}
 		for(int result : results){
-			bw.write(result+" ");
+			bw.write(result + " ");
 		}
 		bw.write("\n");
 		bw.write("Number of documents in results: "+results.size()+" \n");
